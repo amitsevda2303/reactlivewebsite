@@ -2,7 +2,7 @@ import './App.css'
 import Amit from './Navbar';
 import Text from './Text';
 import About from './About';
-import wave from './wave';
+import Wave from './Wave';
 import React, { useState } from 'react'
 import {
   BrowserRouter,
@@ -33,11 +33,11 @@ function App() {
     // <Amit title= "amit" />
     <>
       <BrowserRouter>
-        <Amit exact path='' className="Amit" mode={mode} toggleMode={toggleMode} />
+        <Amit exact path='Textarea1' className="Amit" mode={mode} toggleMode={toggleMode} />
         <Routes>
-          <Route exact path="Textarea" element={<><Text className="Amit" mode={mode} /></>} />
-          <Route exact path="/about" element={<> <About mode={mode} /></>} />
-          <Route exact path='/about'/>
+          <Route exact path="" element={<><Text className="Amit" mode={mode} /></>} />
+          <Route exact path="/about" element={<> <About mode={mode} /><Wave/></>} />
+
         </Routes>
       </BrowserRouter>
     </>
