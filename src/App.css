@@ -44,6 +44,12 @@
   justify-content: space-between;
 } */
 
-.app{
+/* .app{
   background-color: rgb(163, 99, 99);
+} */
+
+
+.ull{
+  display: flex;
+  border-bottom: 3px solid rgb(79, 103, 175);
 }

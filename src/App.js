@@ -2,6 +2,7 @@ import './App.css'
 import Amit from './Navbar';
 import Text from './Text';
 import About from './About';
+import wave from './wave';
 import React, { useState } from 'react'
 import {
   BrowserRouter,
@@ -36,6 +37,7 @@ function App() {
         <Routes>
           <Route exact path="" element={<><Text className="Amit" mode={mode} /></>} />
           <Route exact path="/about" element={<> <About mode={mode} /></>} />
+          <Route exact path='/about'/>
         </Routes>
       </BrowserRouter>
     </>
