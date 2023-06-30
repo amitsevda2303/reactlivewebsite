@@ -34,8 +34,8 @@ function App() {
       <BrowserRouter>
         <Amit className="Amit" mode={mode} toggleMode={toggleMode} />
         <Routes>
+          <Route exact path="" element={<><Text className="Amit" mode={mode} /></>} />
           <Route exact path="/about" element={<> <About mode={mode} /></>} />
-          <Route exact path="/" element={<><Text className="Amit" mode={mode} /></>} />
         </Routes>
       </BrowserRouter>
     </>
