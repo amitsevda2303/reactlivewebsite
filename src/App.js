@@ -2,7 +2,7 @@ import './App.css'
 import Amit from './Navbar';
 import Text from './Text';
 import About from './About';
-import Wave from './Wave';
+import Wave from './wave';
 import React, { useState } from 'react'
 import {
   BrowserRouter,
