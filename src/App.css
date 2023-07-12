@@ -47,17 +47,3 @@
 /* .app{
   background-color: rgb(163, 99, 99);
 } */
-
-
-.ull{
-  display: flex;
-  border-bottom: 3px solid rgb(79, 103, 175);
-}
-
-.ull li{
-  height: 40px;
-  width: 40px;
-  list-style: none;
-  background-color: royalblue;
-  margin: auto 20px;
-}

@@ -33,7 +33,7 @@ function App() {
     // <Amit title= "amit" />
     <>
       <BrowserRouter>
-        <Amit exact path='Textarea1' className="Amit" mode={mode} toggleMode={toggleMode} />
+        <Amit exact path='Text' className="Amit" mode={mode} toggleMode={toggleMode} />
         <Routes>
           <Route exact path="" element={<><Text className="Amit" mode={mode} /></>} />
           <Route exact path="/about" element={<> <About mode={mode} /></>} />
